@@ -13,6 +13,6 @@ app.use('/tareas', require('./routes/tareas'));
 
 app.use(express.static(__dirname + '/public'));
 
-app.listen(app.get('port'), () => {
+app.listen(8080, () => {
   console.log('Se esta ejecutando en el puerto => ' + app.get('port'));
 });
