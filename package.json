@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node src/index.js",
     "webpack": "webpack --mode development --watch",
-    "start": "concurrently \"npm run webpack\" \"npm run dev\""
+    "start": "concurrently \"npm run webpack\" \"npm run dev\"" 
   },
   "keywords": [],
   "author": "",
